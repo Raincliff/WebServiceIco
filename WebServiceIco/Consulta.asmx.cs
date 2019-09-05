@@ -30,7 +30,7 @@ namespace WebServiceIco
             SqlConnection con = new SqlConnection();
 
 
-            con.ConnectionString = "Data Source=148.102.120.208,1433;Initial Catalog=RANDOM;User ID=WebICO;Password=$WeBLaiv32019$1$;Integrated Security = false";
+            con.ConnectionString = "Data Source=;Initial Catalog=;User ID=;Password=;Integrated Security = false";
             SqlDataAdapter da = new SqlDataAdapter("select * from PEDIDOQM", con);
             DataSet ds = new DataSet();
             //da.Fill(ds);
@@ -50,7 +50,7 @@ namespace WebServiceIco
             SqlConnection con = new SqlConnection();
 
 
-            con.ConnectionString = "Data Source=148.102.120.208,1433;Initial Catalog=RANDOM;User ID=WebICO;Password=$WeBLaiv32019$1$;Integrated Security = false";
+            con.ConnectionString = "Data Source=;Initial Catalog=RANDOM;User ID=;Password=;Integrated Security = false";
             SqlDataAdapter da = new SqlDataAdapter("select * from PEDIDOQM", con);
             DataSet ds = new DataSet();
             da.Fill(ds);
